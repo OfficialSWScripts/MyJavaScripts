@@ -1,5 +1,5 @@
 // Get the PDF url
-const pdfUrl = 'https://example.com/example.pdf';
+const pdfUrl = 'https://*.pdf';
 
 // Create a button element
 const downloadButton = document.createElement('button');
@@ -11,7 +11,7 @@ downloadButton.addEventListener('click', () => {
   const downloadLink = document.createElement('a');
   downloadLink.style.display = 'none';
   downloadLink.href = pdfUrl;
-  downloadLink.setAttribute('download', 'example.pdf');
+  downloadLink.setAttribute('download', '*.pdf');
   
   // Append the anchor element to the document body
   document.body.appendChild(downloadLink);
