@@ -1,15 +1,8 @@
 // ==UserScript==
-// @name        Twitter Media Downloader
-// @name:ja     Twitter Media Downloader
-// @name:zh-cn  Twitter 媒体下载
-// @name:zh-tw  Twitter 媒體下載
-// @description    Save Video/Photo by One-Click.
-// @description:ja ワンクリックで動画・画像を保存する。
-// @description:zh-cn 一键保存视频/图片
-// @description:zh-tw 一鍵保存視頻/圖片
-// @version     1.05
-// @author      AMANE
-// @namespace   none
+// @name        PDF Downloader
+// @description    Add a button to the website to download pdf files
+// @version     beta0
+// @author      BNLOS
 // @match       http*://*/*
 // ==/UserScript==
 // Get the PDF url
