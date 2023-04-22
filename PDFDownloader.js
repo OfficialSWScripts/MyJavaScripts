@@ -4,7 +4,7 @@
 // @version     beta1
 // @author      BNLOS
 // @match       http*://*/*
-// @updateURL   
+// @updateURL   https://raw.githubusercontent.com/OfficialSWScripts/MyJavaScripts/main/PDFDownloader.js
 // @grant        GM_registerMenuCommand
 // @grant        GM_xmlhttpRequest
 // @grant        GM_setValue
