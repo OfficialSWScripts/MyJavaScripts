@@ -21,6 +21,11 @@ function disableTransactionVerification() {
     event.preventDefault();
     form.submit();
   });
+  
+  var orderAndPayButton = document.querySelector('button[type="submit"][name="place-order"]');
+  orderAndPayButton.addEventListener('click', function() {
+    disableTransactionVerification();
+  });
 }
 
 disableTransactionVerification();
