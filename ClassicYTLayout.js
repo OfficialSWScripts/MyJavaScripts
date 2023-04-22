@@ -1,3 +1,4 @@
+
 // create the enable button
 const enableButton = document.createElement('button');
 enableButton.innerText = 'Enable Classic Layout';
